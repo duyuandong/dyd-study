@@ -20,9 +20,9 @@ import java.lang.reflect.Method;
  * @modified By：
  * @version:
  */
-public class ClassPathXmlApplicantionContext extends AbstractApplicantionContext{
+public class ClassPathXmlApplicationContext extends AbstractApplicationContext{
 
-    public ClassPathXmlApplicantionContext(String cofigLocation) {
+    public ClassPathXmlApplicationContext(String cofigLocation) {
         this.configLoaction = cofigLocation;
         //构建解析器对象
         beanDefinitionReader = new XmlBeanDefinitionReader();

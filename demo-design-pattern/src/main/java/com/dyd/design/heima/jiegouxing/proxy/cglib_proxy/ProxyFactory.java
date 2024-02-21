@@ -1,5 +1,7 @@
 package com.dyd.design.heima.jiegouxing.proxy.cglib_proxy;
 
+
+
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
@@ -30,7 +32,6 @@ public class ProxyFactory implements MethodInterceptor {
         return proxyObject;
     }
 
-    @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         System.out.println("代理中增强业务=====cglib");
         return method.invoke(station,objects);

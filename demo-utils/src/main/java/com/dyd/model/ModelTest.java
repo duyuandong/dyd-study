@@ -2,9 +2,6 @@ package com.dyd.model;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.example.demo.pojo.MeterAttr;
-import com.example.demo.pojo.MeterAttr2;
-import com.example.demo.utils.BeanCopierUtils;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.apache.commons.lang3.StringUtils;
@@ -93,13 +90,7 @@ public class ModelTest {
     BigDecimal bigDecimal = BigDecimal.valueOf(0.9882);
     System.out.println(bigDecimal.toPlainString());
 
-    MeterAttr meterAttr = new MeterAttr();
-    meterAttr.setAk(20210101L);
-    meterAttr.setScore(null);
-    meterAttr.setName("222.2222");
-    System.out.println("---------------------------Model--------------------Resevet----start:");
-    MeterAttr2 meterAttr2 = BeanCopierUtils.copyProperties(meterAttr, MeterAttr2.class, true);
-    System.out.println(JSONObject.toJSONString(meterAttr2));
+
     System.out.println("---------------------------Model--------------------Resevet----end:");
     int randomNumber = (int) ((Math.random() * 9 + 1) * 1000);
     System.out.println(randomNumber);

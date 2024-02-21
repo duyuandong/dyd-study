@@ -15,7 +15,7 @@ public class Manager extends Handler{
     }
 
     @Override
-    public void handlerLeave(com.example.demo.design.heima.xingweixing.responsibility.LeaveRequest leave) {
+    public void handlerLeave(LeaveRequest leave) {
         System.out.println(leave.getName() + "请假" + leave.getNum() + "天,原因: " + leave.getContent());
         System.out.println("部门经理审批同意!");
     }

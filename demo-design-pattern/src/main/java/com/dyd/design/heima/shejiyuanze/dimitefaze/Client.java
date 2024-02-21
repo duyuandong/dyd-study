@@ -8,7 +8,7 @@ package com.dyd.design.heima.shejiyuanze.dimitefaze;
  * @modified By：
  * @version:
  */
-public class AgentDemo {
+public class Client {
     public static void main(String[] args) {
         Star star = new Star("李晓明");
         Fans fans = new Fans("小红");

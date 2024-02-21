@@ -29,11 +29,11 @@ public class Client {
         citation.setStu(stu);
 
         //使用序列化操作可以使原型对象克隆后的 原引用数据不发生变化
-        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("D:\\dyd-work\\project\\demo-service\\src\\main\\java\\com\\spring\\demo\\design\\heima\\chuangjianzhe\\prototype\\test1\\dyd.txt"));
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("D:\\dyd-work\\dyd-demo\\demo-design-pattern\\src\\main\\java\\com\\dyd\\design\\heima\\chuangjianzhe\\prototype\\test1\\dyd.txt"));
         oos.writeObject(citation);
         oos.close();
 
-        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("D:\\dyd-work\\project\\demo-service\\src\\main\\java\\com\\spring\\demo\\design\\heima\\chuangjianzhe\\prototype\\test1\\dyd.txt"));
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("D:\\dyd-work\\dyd-demo\\demo-design-pattern\\src\\main\\java\\com\\dyd\\design\\heima\\chuangjianzhe\\prototype\\test1\\dyd.txt"));
         Citation clone = (Citation)ois.readObject();
         ois.close();
         clone.getStu().setName("小黄");

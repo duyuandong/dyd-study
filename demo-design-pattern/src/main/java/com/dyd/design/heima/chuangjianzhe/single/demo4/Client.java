@@ -15,14 +15,13 @@ import java.io.ObjectOutputStream;
  */
 public class Client {
     public static void main(String[] args) throws Exception{
-//        writeFile();
-        readFile();
+       //writeFile();
         readFile();
     }
 
     public static void readFile() throws Exception{
 
-        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("D:/dyd-work/project/demo-service/src/main/java/com/spring/demo/design/heima/chuangjianzhe/danli/demo4/dyd.txt"));
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("D:\\dyd-work\\dyd-demo\\demo-design-pattern\\src\\main\\java\\com\\dyd\\design\\heima\\chuangjianzhe\\single\\demo4\\dyd.txt"));
         Singleton instance = (Singleton)ois.readObject();
         System.out.println(instance);
         ois.close();
@@ -31,7 +30,7 @@ public class Client {
     public static void writeFile() throws Exception{
 
         Singleton instance = Singleton.getInstance(); //会进行序列化
-        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("D:/dyd-work/project/demo-service/src/main/java/com/spring/demo/design/heima/chuangjianzhe/danli/demo4/dyd.txt"));
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("D:\\dyd-work\\dyd-demo\\demo-design-pattern\\src\\main\\java\\com\\dyd\\design\\heima\\chuangjianzhe\\single\\demo4\\dyd.txt"));
         oos.writeObject(instance);
         oos.close();
     }

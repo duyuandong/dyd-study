@@ -17,7 +17,7 @@ import java.util.Map;
  * @modified By：
  * @version:
  */
-public abstract class AbstractApplicantionContext implements ApplicationContext {
+public abstract class AbstractApplicationContext implements ApplicationContext {
 
     //声明解析器变量
     protected BeanDefinitionReader beanDefinitionReader;
