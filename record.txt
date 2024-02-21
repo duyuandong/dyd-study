@@ -1,0 +1,288 @@
+svn：wh:duyd/duyd890  sz:duyd/D2^c4v9S0
+需求：https://192.168.1.188/svn/EngineeringDocument/
+工具：http://192.168.1.188:8807/tree/Tools.git
+git：  duyuangdong/duyuangdong
+项目：http://192.168.1.188:8807/summary/service-meter.git
+saas平台：http://localhost:8088/web/sassLogin/login.html  15652345110  Qwer1234
+禅道：http://120.24.82.71:30000/zentaopms  duyd DuYd881
+doclever http://192.168.1.11:9090/html/web/controller/console/console.html  duyd DuYd881
+http://192.168.1.5:8080/jenkins/view/%E4%BB%AA%E8%A1%A8%E7%AE%A1%E7%90%86/job/seivice-meter/ jekins
+.5开发环境：http://192.168.1.5:10088/web/portal/#/home 15652345110 Qwer1234
+vpn连接   duyuandong/dyd21+谷歌验证码
+公司邮箱：duyd@segimail.com
+OA：http://oa.uhomecp.com/wui/index.html?v=1616152693819#/?_key=oeih4q 杜元东 Duyuan5821867
+公共库  http://192.168.1.5:8087/nexus admin  admin123321
+海哥手机号：18627838129
+beta环境：beta.uhomecp.com beta	19019000020/abcd11112222   19800198001/abcd11112222  
+gamma环境：gamma.uhomecp.com gamma	18171193399/ZYH333333a   18171193355/Qwer1234  18900000018/Qwer1234
+saas平台 ：www.uhomecp.com 15652345110/Qwer1234  sghl0000001/SGhladmin01(数据多)  18627838129 Qwer1234   
+跳转机 71的账号/密码 -u uhome -h 120.24.82.71 35127 -p kjywd@162*290
+报表库 ：10.111.32.28:3306    ods_int/9uods_intss3877
+vpn 11服务器 192.168.1.10：22  uhome/uhome10  mysql：192.168.1.12:3306/uhome   uhome/uhome110
+ssh -p 41122 uhome@10.81.248.16   uhome/beta$0608java_,0930
+?ssh -p 41122 uhome@10.111.32.25 (前端)? ? ? ? ?Vgm9012^TstM57
+beta nginx ssh -p 41122 uhome@10.29.248.6 beta$0608java_,0930
+192.168.1.5 port:22 
+uhome / develop@123456
+jekins admin 123456
+惠泽v8 segi,123456  v6
+
+主数据
+
+
+独立部署是segi_dbr密码是Yv0i5WxigYaLr4pN
+saas平台:mysql 
+mysql -h 10.31.77.42 -u   巡查
+mysql -h 10.80.247.61 -u   车场
+mysql -h 10.27.171.10 -usegi_dbr  任务和品质
+mysql -h 10.80.247.201 -usegi_dbr  库存
+
+https://beta.uhomecp.com/rocketmq-console/#/login
+mqadmin/Betamq@1104
+
+saas平台:
+（车场）mysql -h 10.80.247.61 -P3306 -usegi_dbr -pYv0i5WxigYaLr4pN -Dparking
+SHOW DATABASES;
+use parking
+ 巡更报表库：mysql -P 3306 -h 10.66.94.118 -usegi_dbr -pYv0i5WxigYaLr4pN -Dsegiods
+
+（车场）mysql -h 10.29.204.250 -P3306 -usegi_dbr -pYv0i5WxigYaLr4pN -Dsvr_pub
+（巡更）mysql -h 10.31.77.42 -P3306 -usegi_dbr -pYv0i5WxigYaLr4pN      usegi_dbr/g7K6GMEzgPcYvBsivIz/tw==    Yv0i5WxigYaLr4pN/a6jwCT3EhD4N7onG8EG2Ahi8GyK8jP+3
+SHOW DATABASES;
+use  svr_pub
+
+beta:
+mysql -h 10.30.221.134 -P3306 -uuhomeb -pbsvrvto0320dt -Dparking -A 
+ mysql -uuhomeb -p'bsvrvto0320dt' -h10.111.33.121 -Dsegi_parking -A
+ mysql -uuhome_bus_user -p'uhome_bus_user' -h10.111.33.121 -Dsegi_pub -A
+ 
+mysql -h 10.30.221.134 -P3306 -umsg_data -pabcd1111 -Dsvr_pub -A
+设备报表库
+	mysql -h 10.111.33.122 -P3306 -uuhomeb -pbsvrvto0320dt -Dsegiods -A
+ 
+ mysqldump -h 10.30.221.134 -P3306 -umsg_data -pabcd1111 --databases svr_pub --table parking_sale_purchase_info (--no-create-info) > /tmp/parking_sale_purchase_info.sql   导出文件
+ 
+ 
+
+gamma:
+mysql -h 10.111.32.22 -P3306  -uuhome2 -pbgama9615dt -Dsegi_parking -A
+mysql -h 10.111.32.22 -P3306  -uuhome2 -pbgama9615dt
+
+宝丰环境beta
+mysql -h 10.100.144.8  -uparkApp -psKO71o_pRXi -Dsegi_parking  -A
+
+
+http://wytest.mideadc.com/web/portal-gateway/#/
+wyadmin/123456 美的
+https://ipms.chanfinelife.com/web/portal/#/home
+18696160001 Qwer1234 长房
+
+http://zhwy.octlife.com/web/sassLogin/login.html 11111111004  Abcd1111@
+https://zhwytst.octlife.com/web/portal/#/home   11111111004  Qwer@12345678
+华侨城 
+
+http://lelingjia.baofengenergy.com/web/sassLogin/login.html 宝丰正式  18900189001    Qwer12345678
+http://211.93.15.122:5000/web/sassLogin/login.html  18900189001 Qwer1234 宝丰测试
+
+1.中海正式环境
+https://sf.copm.com.cn/web/sassLogin/login.html
+18897775735  @Luo123456
+
+联投正式
+https://wy.whltzy.com/web/sassLogin/login.html?redirectUrl=/web/portal-gateway/#/home-gateway
+186 9616 0000
+Abcd1233@
+
+宝丰正式：
+sghl0000002
+Sghladmin02
+http://lelingjia.baofengenergy.com
+
+堡垒机：
+账户：duyd@segimail.com
+密码：Dv4!09H7w
+
+运维平台:15652345110 Qwer1234
+
+
+mqadmin/Betamq@1104  beta MQ
+
+
+http://10.29.216.180:7185/ops/command-execution/start/ 堡垒机登陆地址
+beta 10.111.37.151
+sudo su - saasb
+进入 kubectl exec -t -i [podName] bash 
+
+cd /data/build/wuhan/ 项目文件目录
+rm -r * 删除当前项目内文件
+jar -xf /tmp/segi-wh-openapi.war 解压war包
+./build_image.sh  segi-wh-openapi 1.0.1 项目下whapi
+cd /data/product/saasb/whopenapi/ cat segi-wh-openapi.yaml 修改配置版本号
+kubectl apply -f segi-wh-openapi.yaml 项目下重新创建pod
+cd /data/product/saasb/configmap/car/ 配置文件路径
+更换配置文件后续 kubectl delete(apply/create) -f  yaml;
+kubectl apply -f   kubectl delete -f car-parking-api.yaml ;kubectl create -f car-parking-api.yaml
+
+kubectl  rollout  restart deploy  car-parking 重启
+
+
+
+#字典表分库配置：
+SELECT * FROM uhome.`tb_uhome_dictionary` WHERE CODE LIKE '%webapp.root.meter.table%'
+INSERT INTO uhome.`tb_uhome_dictionary` (`CODE`, `NAME`, `VALUE`, `ORDER_NO`, `TYPE`, `STATUS`, `REMARK`, `CREATE_TIME`, `UPDATE_TIME`) VALUES('webapp.root.meter.table','','meter_inst','1','METER','1','','2020-10-25 11:00:00','2020-10-25 11:00:00');
+
+show columns from 表名;
+
+#项目启动配置：
+-DUHOME_CONFIG_PATH=E:\appconfig\eqp\uhome-config-met.properties
+-Dice.envPath=file:E:\appconfig\iceclient.properties
+-Dserver.servlet.context-path=/meter-service
+-Dlogging.level.com.segi.uhomecp=debug
+
+#产品划分：
+BMG：业务管理组（资管、经营、物管）
+ERG：ERP组（业控、收支）
+PMG：平台管理组（基础、中台类产品）
+OMG：运营管理组（客户、数据、运营）
+
+#boot项目启动关闭linux配置
+#!/bin/bash
+jar="meter-service-0.0.1-SNAPSHOT.jar"
+nohup java -Xms256m -Xmx256m -XX:PermSize=256m -XX:MaxPermSize=256m -XX:MaxNewSize=256m -Dserver.port=20203 -Dserver.servlet.context-path=/meter-service -DUHOME_CONFIG_PATH=../config/uhome-config-met.properties -Dlogging.level.com.segi.uhomecp.meter=debug -Dlogging.config=../config/logback-spring.xml -Djasypt.encryptor.password=EbfYkitulv73I2p0mXI50JMXoaxZTKJ0  -Dice.envPath=../config/iceclient.properties -Dspring.config.location=../config/application.properties  -Dfile.encoding=UTF8 -jar ../lib/${jar} >nohup.log 2>&1 &
+echo "start meter-service"
+#!/bin/bash
+jar="meter-service-0.0.1-SNAPSHOT.jar"
+
+kill -9 $(ps -ef | grep ${jar} | grep -v grep | awk '{print $2}')
+echo "stop server meter-service"
+
+#linux查看端口
+netstat -an | grep 16010
+
+mkdir
+
+
+
+mybatis <![CDATA[ >= ]]>
+
+#本地仓库打包
+mvn install:install-file -Dfile=C:\Users\123\Desktop\logback-core-1.2.9.jar -DgroupId=ch.qos.logback -DartifactId=logback-core -Dversion=1.2.9 -Dpackaging=jar -Dmaven.repo.local=D:\repo
+
+mvn deploy:deploy-file -Dmaven.test.skip=true -Dfile=D:\repo\com\segi\uhomecp\order-inner-rpc\1.1.5\order-inner-rpc-1.1.5.jar -DgroupId=com.segi.uhomecp -DartifactId=order-inner-rpc -Dversion=1.1.5 -Dpackaging=jar -DrepositoryId=releases -Durl=http://192.168.1.5:8087/nexus/content/repositories/releases/
+
+http://192.168.1.11:8087/nexus/#    //vpn远程仓库
+http://192.168.1.5:8087/nexus/#    //私服仓库
+admin
+admin123321
+
+> catalina.out
+
+//配置权限
+SELECT * FROM tb_uhome_admin_user WHERE tel='15652345110';
+3164
+
+SELECT * FROM resource WHERE res_name LIKE '%已有月卡%';
+
+SELECT * FROM resource WHERE parent_id=1431239;
+
+1571210
+SELECT * FROM resource WHERE res_name LIKE '%过户%';
+1112700010
+
+5431
+SELECT * FROM user_role_rel WHERE user_id=3164;
+
+INSERT INTO popedom_role_rel (ROLE_ID,POPEDOM_ID) VALUES (5431,1112700254);
+SELECT * FROM popedom_role_rel
+INSERT INTO resource (RES_CODE,PARENT_ID,RES_NAME,TYPE,ORDER_NO,STATUS) VALUES ('parking_place002','20021','车位删除',2,10,1);
+
+//查表sql
+SELECT * FROM information_schema.tables WHERE table_name LIKE 'tb_uhome_dictionary';
+//建视图或者修改
+CREATE VIEW common_sql_config AS (select * from uhome.common_sql_config)
+CREATE   OR  REPLACE  VIEW  语句修改视图
+//序列
+INSERT INTO t_sequence(NAME, VALUE, gmt_modified, step)SELECT 'meter_dt_inst_id_seq' , 1000 , NOW(), 10000;
+//加字段
+ALTER TABLE meter_replace_approval_record ADD approver_id INT(11) COMMENT "审核人id";
+//改字段
+ALTER TABLE attence MODIFY COLUMN id INT(20)
+//批量加字段
+ALTER TABLE audit_inst_item_change_record ADD (met1 INT(11) COMMENT "111",met2 INT(11) COMMENT "222",met3 INT(11) COMMENT "333");
+//添加索引
+ALTER TABLE `parking_res_rel` ADD INDEX `index_parking_res_rel_rc` (`res_id`,`community_id`)
+-- 删除字段
+ALTER TABLE `table_name` DROP COLUMN `column`;
+
+ALTER TABLE tb_uhome_parking ADD PRIMARY KEY (`PARKING_ID`);
+//根据机构id查询机构下所有项目
+(SELECT DISTINCT community_id FROM organ_com_rel WHERE STATUS  = 1 AND virtua_organ_id IN ( SELECT organ_id FROM organ_rel WHERE organ_code LIKE 
+CONCAT((SELECT organ_code FROM organ_rel WHERE organ_id = 1000626),'%'))
+)
+
+
+
+//tomcat设置启动关闭杀死PID
+./catanila.sh下
+# Get standard environment variables 
+PRGDIR=`dirname "$PRG"`
+if [ -z "$CATALINA_PID" ]; then
+CATALINA_PID=$PRGDIR/CATALINA_PID
+fi
+./shutdown.sh下
+**************** stop -force "$@"
+
+//文件内搜索、赋权
+  chmod -R 777 dir1
+  chown du: -R dir2 改用户组
+  
+  # Set UMASK unless it has been overridden tomcat内修改上传文件权限
+if [ -z "$UMASK" ]; then
+    UMASK="0022"
+fi
+
+文件内 /[pattern]  字母n去查找下一个
+文件外 grep -c "contents" debug.log 
+			-c匹配的行数 
+			-n行数 
+			-i忽略大小写 
+			*.log多个文件 
+			-r递归 指定文件夹 grep -r "v\$temp_space_header" /u01 
+			-w 只想获取和整个搜索字符匹配的内容
+			-A 10 返回匹配后和它后面的n行,(After，之后)。
+			-B 10 返回匹配行和它前面的n行,(Before，之前)。
+			-C 10 返回匹配行和它前后各n行，通-A和-B联用,(Context，上下文即前后)。
+			
+
+			
+jar -xvf ROOT.war
+
+git操作
+$ git branch -d <BranchName> 删除本地分支
+merge into current 将远程的合并到当前
+			
+mq地址：http://192.168.1.188:12581/#/topic
+saasb:	http://10.29.216.180:7172/rocketmq-console/#/message 
+beta:	https://beta.uhomecp.com/rocketmq-console/#/message
+
+Nginx：10.111.32.25 /usr/local/nginx/conf/nginx_server.conf -
+生效 /usr/local/nginx/sbin  ./nginx -s reload  重新加载
+
+UPDATE '表名' SET field = replace(field,'被替换','替换成') 
+
+查看linux 占用磁盘 地方df -h
+
+post:
+	curl -v -H "Content-Type: application/json; charset=UTF-8" -H "version: 1.0.0" -X POST -d '{"totalAmount":"96000","system":"32768","method":"paycallback","payMethod":"12","businessId":"BTI102023112815103811322100000","custId":"0","paySerialId":"BTI102023112815103811322100000","organId":"1000188","communityId":"1000188","payStatus":"POK","userId":"","payDate":"2023-11-28 15:10:36"}' "http://bill-c.bill:8080/bill/outerifc"
+	curl -v -H "application/x-www-form-urlencoded; charset=UTF-8" -X POST -d '{"organId":"1000626","communityId":-1,"taskType":"1","taskCode":"ASYNC_DT_ROUTE_DIMENSION_SINGLE_EXPORT","systemCode":"patrol","data":{"businessType":"","beginDate":"2023-02-01","endDate":"2024-01-29","organId":"1000626","pageNo":"1","pageLength":"10","totalCount":"2","routeId":""}}' "http://bill-c.bill:8080/bill/outerifc"
+	curl -v -H "Content-Type: application/json; charset=UTF-8" -X POST "http://uhomecp-customer.saasb:8080/uhomecp-customer/rest-api/v1/customerRestApiController/addCustomerInfo.json?communityId=67&custPhone=15652345100&cardType=0&custType=4000&custName=%E8%80%81%E5%98%8E&custGender=1&custCard=&houseId=671024&companyName=%E8%80%81%E4%B8%89%E6%A0%B7&companyAddres=%E8%80%81%E5%9B%9B%E6%A0%B7"
+get:
+	curl -v "http://www.jslife.com.cn/jsaims/login?cid=880075501005504&usr=880075501005504&psw=LIW888888"
+
+jmap -histo:live 1| head -10
+jstat -gc 1 1000
+ JAVA_OPTS="-Xms700m -Xmx700m -Xmn300m -Xss1024K -XX:PermSize=100m -XX:MaxPermSize=100 -XX:+UseParallelGC -XX:ParallelGCThreads=1 -XX:+PrintGCTimeStamps
+ -XX:+PrintGCDetails -Xloggc:/opt/logs/gc.log -verbose:gc -XX:+DisableExplicitGC"
+
+
+

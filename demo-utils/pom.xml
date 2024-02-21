@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.dyd</groupId>
+        <artifactId>dyd-demo</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>demo-utils</artifactId>
+
+    <properties>
+        <cglib.version>3.2.5</cglib.version>
+        <poi.version>5.2.3</poi.version>
+
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+        <!--httpclient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.4.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore-nio</artifactId>
+            <version>4.4.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpasyncclient</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>${cglib.version}</version>
+        </dependency>
+        <!-- ice -->
+        <dependency>
+            <groupId>com.zeroc</groupId>
+            <artifactId>ice</artifactId>
+            <version>3.6.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zeroc</groupId>
+            <artifactId>glacier2</artifactId>
+            <version>3.6.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.segi.uhomecp</groupId>
+            <artifactId>message-push-client-common</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+
+        <!-- 版本管控 -->
+        <dependency>
+            <groupId>com.segi.uhomecp.whcenter.common</groupId>
+            <artifactId>segi-health</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!-- joda-time时间操作 -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>3.1.1</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>poi</artifactId>
+                    <groupId>org.apache.poi</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>poi-ooxml</artifactId>
+                    <groupId>org.apache.poi</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.segi.uhomecp.portal</groupId>
+            <artifactId>ice-cl-ext</artifactId>
+            <version>0.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>segi.common</groupId>
+            <artifactId>segi-organ-client</artifactId>
+            <version>2.3.46</version>
+        </dependency>
+        <dependency>
+            <groupId>com.segi.uhomecp.portal</groupId>
+            <artifactId>segi-redis-cluster</artifactId>
+            <version>0.0.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.segi.uhomecp.portal</groupId>
+            <artifactId>uhomecp-portal-common</artifactId>
+            <version>1.2.1.2</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.segi.uhomecp.portal</groupId>
+                    <artifactId>segi-authc-filter</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>segi.common</groupId>
+                    <artifactId>segi-organ-client</artifactId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>quartz</artifactId>
+                    <groupId>org.opensymphony.quartz</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <!-- 工单ice -->
+        <dependency>
+            <groupId>com.segi.uhomecp</groupId>
+            <artifactId>order-inner-rpc</artifactId>
+            <version>1.1.5</version>
+        </dependency>
+        <!-- 巡更rpc -->
+        <dependency>
+            <groupId>com.segi.uhomecp</groupId>
+            <artifactId>report-patrol-rpc</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- sql语句拦截处理相关 -->
+        <dependency>
+            <groupId>com.github.jsqlparser</groupId>
+            <artifactId>jsqlparser</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+        <!--客户关系RPC-->
+        <dependency>
+            <groupId>com.segi.uhomecp.customer</groupId>
+            <artifactId>customer-inner-rpc</artifactId>
+            <version>1.0.18</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.segi.uhomecp.portal</groupId>
+                    <artifactId>segi-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.segi.uhomecp.portal</groupId>
+                    <artifactId>segi-config</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <!-- 排除出打包 -->
+                <excludes>
+                    <exclude>generatorConfig.xml</exclude>
+                    <exclude>logback-spring.xml</exclude>
+                </excludes>
+            </resource>
+        </resources>
+    </build>
+</project>
