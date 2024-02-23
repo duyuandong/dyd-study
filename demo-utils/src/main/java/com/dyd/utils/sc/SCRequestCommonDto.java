@@ -1,6 +1,6 @@
 package com.dyd.utils.sc;
 
-import com.example.demo.utils.DateUtils;
+import com.dyd.utils.DateUtils;
 import com.google.common.collect.Lists;
 import lombok.Data;
 import org.joda.time.DateTime;

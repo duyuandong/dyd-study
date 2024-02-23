@@ -1,6 +1,6 @@
 package com.dyd.utils;
 
-import com.example.demo.exception.ParkingException;
+import com.dyd.exception.ParkingException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

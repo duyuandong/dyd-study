@@ -1,8 +1,8 @@
 package com.dyd.third.shoucheng;
 
 import com.alibaba.fastjson.JSONObject;
-import com.example.demo.third.SignatureUtils;
-import com.example.demo.utils.MD5Util;
+import com.dyd.third.SignatureUtils;
+import com.dyd.utils.MD5Util;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;

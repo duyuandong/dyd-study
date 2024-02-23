@@ -1,6 +1,6 @@
 package com.dyd.test;
 
-import com.example.demo.utils.MD5Util;
+import com.dyd.utils.MD5Util;
 
 /**
  * @author ：duyd@segimail.com

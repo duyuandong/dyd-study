@@ -1,6 +1,6 @@
 package com.dyd.pojo.beanut;
 
-import com.example.demo.pojo.MeterAttr2;
+import com.dyd.pojo.MeterAttr2;
 
 /**
  * @author ：duyd@segimail.com

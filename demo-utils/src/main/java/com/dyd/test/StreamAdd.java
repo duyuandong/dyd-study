@@ -1,7 +1,7 @@
 package com.dyd.test;
 
-import com.example.demo.pojo.MeterAttr;
-import com.example.demo.pojo.Test;
+import com.dyd.pojo.MeterAttr;
+import com.dyd.pojo.Test;
 
 import java.util.ArrayList;
 import java.util.List;

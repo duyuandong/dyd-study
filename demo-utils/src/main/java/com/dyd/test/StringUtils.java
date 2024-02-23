@@ -3,10 +3,10 @@ package com.dyd.test;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.example.demo.pojo.JsonPojo;
-import com.example.demo.pojo.ParkingGuide;
-import com.example.demo.utils.DateUtils;
-import com.example.demo.utils.MD5Util;
+import com.dyd.pojo.JsonPojo;
+import com.dyd.pojo.ParkingGuide;
+import com.dyd.utils.DateUtils;
+import com.dyd.utils.MD5Util;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.sun.deploy.net.URLEncoder;
@@ -336,8 +336,8 @@ public class StringUtils {
     jsonObject5.put("name", "jsons");
     jsonObject5.put("age", 29);
     jsonObject5.put("ok", 222);
-    com.example.demo.pojo.Student student =
-        JSONObject.parseObject(jsonObject5.toJSONString(), com.example.demo.pojo.Student.class);
+    com.dyd.pojo.Student student =
+        JSONObject.parseObject(jsonObject5.toJSONString(), com.dyd.pojo.Student.class);
     System.out.println(student);
     String hanhan = "车位编辑-车场(状态有效:不可-编辑，无效:可编辑)";
     System.out.println(hanhan.length());

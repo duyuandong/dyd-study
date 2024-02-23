@@ -1,6 +1,6 @@
 package com.dyd.test;
 
-import com.example.demo.pojo.MeterAttr;
+import com.dyd.pojo.MeterAttr;
 import com.google.common.collect.Lists;
 import org.springframework.util.CollectionUtils;
 

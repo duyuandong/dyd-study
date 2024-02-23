@@ -1,6 +1,6 @@
 package com.dyd.test;
 
-import com.example.demo.pojo.Student;
+import com.dyd.pojo.Student;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
