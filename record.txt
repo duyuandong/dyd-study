@@ -1,53 +1,53 @@
-svn£ºwh:duyd/duyd890  sz:duyd/D2^c4v9S0
-ĞèÇó£ºhttps://192.168.1.188/svn/EngineeringDocument/
-¹¤¾ß£ºhttp://192.168.1.188:8807/tree/Tools.git
-git£º  duyuangdong/duyuangdong
-ÏîÄ¿£ºhttp://192.168.1.188:8807/summary/service-meter.git
-saasÆ½Ì¨£ºhttp://localhost:8088/web/sassLogin/login.html  15652345110  Qwer1234
-ìøµÀ£ºhttp://120.24.82.71:30000/zentaopms  duyd DuYd881
+svnï¼šwh:duyd/duyd890  sz:duyd/D2^c4v9S0
+éœ€æ±‚ï¼šhttps://192.168.1.188/svn/EngineeringDocument/
+å·¥å…·ï¼šhttp://192.168.1.188:8807/tree/Tools.git
+gitï¼š  duyuangdong/duyuangdong
+é¡¹ç›®ï¼šhttp://192.168.1.188:8807/summary/service-meter.git
+saaså¹³å°ï¼šhttp://localhost:8088/web/sassLogin/login.html  15652345110  Qwer1234
+ç¦…é“ï¼šhttp://120.24.82.71:30000/zentaopms  duyd DuYd881
 doclever http://192.168.1.11:9090/html/web/controller/console/console.html  duyd DuYd881
 http://192.168.1.5:8080/jenkins/view/%E4%BB%AA%E8%A1%A8%E7%AE%A1%E7%90%86/job/seivice-meter/ jekins
-.5¿ª·¢»·¾³£ºhttp://192.168.1.5:10088/web/portal/#/home 15652345110 Qwer1234
-vpnÁ¬½Ó   duyuandong/dyd21+¹È¸èÑéÖ¤Âë
-¹«Ë¾ÓÊÏä£ºduyd@segimail.com
-OA£ºhttp://oa.uhomecp.com/wui/index.html?v=1616152693819#/?_key=oeih4q ¶ÅÔª¶« Duyuan5821867
-¹«¹²¿â  http://192.168.1.5:8087/nexus admin  admin123321
-º£¸çÊÖ»úºÅ£º18627838129
-beta»·¾³£ºbeta.uhomecp.com beta	19019000020/abcd11112222   19800198001/abcd11112222  
-gamma»·¾³£ºgamma.uhomecp.com gamma	18171193399/ZYH333333a   18171193355/Qwer1234  18900000018/Qwer1234
-saasÆ½Ì¨ £ºwww.uhomecp.com 15652345110/Qwer1234  sghl0000001/SGhladmin01(Êı¾İ¶à)  18627838129 Qwer1234   
-Ìø×ª»ú 71µÄÕËºÅ/ÃÜÂë -u uhome -h 120.24.82.71 35127 -p kjywd@162*290
-±¨±í¿â £º10.111.32.28:3306    ods_int/9uods_intss3877
-vpn 11·şÎñÆ÷ 192.168.1.10£º22  uhome/uhome10  mysql£º192.168.1.12:3306/uhome   uhome/uhome110
+.5å¼€å‘ç¯å¢ƒï¼šhttp://192.168.1.5:10088/web/portal/#/home 15652345110 Qwer1234
+vpnè¿æ¥   duyuandong/dyd21+è°·æ­ŒéªŒè¯ç 
+å…¬å¸é‚®ç®±ï¼šduyd@segimail.com
+OAï¼šhttp://oa.uhomecp.com/wui/index.html?v=1616152693819#/?_key=oeih4q æœå…ƒä¸œ Duyuan5821867
+å…¬å…±åº“  http://192.168.1.5:8087/nexus admin  admin123321
+æµ·å“¥æ‰‹æœºå·ï¼š18627838129
+betaç¯å¢ƒï¼šbeta.uhomecp.com beta	19019000020/abcd11112222   19800198001/abcd11112222  
+gammaç¯å¢ƒï¼šgamma.uhomecp.com gamma	18171193399/ZYH333333a   18171193355/Qwer1234  18900000018/Qwer1234
+saaså¹³å° ï¼šwww.uhomecp.com 15652345110/Qwer1234  sghl0000001/SGhladmin01(æ•°æ®å¤š)  18627838129 Qwer1234   
+è·³è½¬æœº 71çš„è´¦å·/å¯†ç  -u uhome -h 120.24.82.71 35127 -p kjywd@162*290
+æŠ¥è¡¨åº“ ï¼š10.111.32.28:3306    ods_int/9uods_intss3877
+vpn 11æœåŠ¡å™¨ 192.168.1.10ï¼š22  uhome/uhome10  mysqlï¼š192.168.1.12:3306/uhome   uhome/uhome110
 ssh -p 41122 uhome@10.81.248.16   uhome/beta$0608java_,0930
-?ssh -p 41122 uhome@10.111.32.25 (Ç°¶Ë)? ? ? ? ?Vgm9012^TstM57
+?ssh -p 41122 uhome@10.111.32.25 (å‰ç«¯)? ? ? ? ?Vgm9012^TstM57
 beta nginx ssh -p 41122 uhome@10.29.248.6 beta$0608java_,0930
 192.168.1.5 port:22 
 uhome / develop@123456
 jekins admin 123456
-»İÔóv8 segi,123456  v6
+æƒ æ³½v8 segi,123456  v6
 
-Ö÷Êı¾İ
+ä¸»æ•°æ®
+å‰ç«¯åŒ… : cd /data/segingx/h5/h5/
 
-
-¶ÀÁ¢²¿ÊğÊÇsegi_dbrÃÜÂëÊÇYv0i5WxigYaLr4pN
-saasÆ½Ì¨:mysql 
-mysql -h 10.31.77.42 -u   Ñ²²é
-mysql -h 10.80.247.61 -u   ³µ³¡
-mysql -h 10.27.171.10 -usegi_dbr  ÈÎÎñºÍÆ·ÖÊ
-mysql -h 10.80.247.201 -usegi_dbr  ¿â´æ
+ç‹¬ç«‹éƒ¨ç½²æ˜¯segi_dbrå¯†ç æ˜¯Yv0i5WxigYaLr4pN
+saaså¹³å°:mysql 
+mysql -h 10.31.77.42 -u   å·¡æŸ¥
+mysql -h 10.80.247.61 -u   è½¦åœº
+mysql -h 10.27.171.10 -usegi_dbr  ä»»åŠ¡å’Œå“è´¨
+mysql -h 10.80.247.201 -usegi_dbr  åº“å­˜
 
 https://beta.uhomecp.com/rocketmq-console/#/login
 mqadmin/Betamq@1104
 
-saasÆ½Ì¨:
-£¨³µ³¡£©mysql -h 10.80.247.61 -P3306 -usegi_dbr -pYv0i5WxigYaLr4pN -Dparking
+saaså¹³å°:
+ï¼ˆè½¦åœºï¼‰mysql -h 10.80.247.61 -P3306 -usegi_dbr -pYv0i5WxigYaLr4pN -Dparking
 SHOW DATABASES;
 use parking
- Ñ²¸ü±¨±í¿â£ºmysql -P 3306 -h 10.66.94.118 -usegi_dbr -pYv0i5WxigYaLr4pN -Dsegiods
+ å·¡æ›´æŠ¥è¡¨åº“ï¼šmysql -P 3306 -h 10.66.94.118 -usegi_dbr -pYv0i5WxigYaLr4pN -Dsegiods
 
-£¨³µ³¡£©mysql -h 10.29.204.250 -P3306 -usegi_dbr -pYv0i5WxigYaLr4pN -Dsvr_pub
-£¨Ñ²¸ü£©mysql -h 10.31.77.42 -P3306 -usegi_dbr -pYv0i5WxigYaLr4pN      usegi_dbr/g7K6GMEzgPcYvBsivIz/tw==    Yv0i5WxigYaLr4pN/a6jwCT3EhD4N7onG8EG2Ahi8GyK8jP+3
+ï¼ˆè½¦åœºï¼‰mysql -h 10.29.204.250 -P3306 -usegi_dbr -pYv0i5WxigYaLr4pN -Dsvr_pub
+ï¼ˆå·¡æ›´ï¼‰mysql -h 10.31.77.42 -P3306 -usegi_dbr -pYv0i5WxigYaLr4pN      usegi_dbr/g7K6GMEzgPcYvBsivIz/tw==    Yv0i5WxigYaLr4pN/a6jwCT3EhD4N7onG8EG2Ahi8GyK8jP+3
 SHOW DATABASES;
 use  svr_pub
 
@@ -57,95 +57,96 @@ mysql -h 10.30.221.134 -P3306 -uuhomeb -pbsvrvto0320dt -Dparking -A
  mysql -uuhome_bus_user -p'uhome_bus_user' -h10.111.33.121 -Dsegi_pub -A
  
 mysql -h 10.30.221.134 -P3306 -umsg_data -pabcd1111 -Dsvr_pub -A
-Éè±¸±¨±í¿â
+è®¾å¤‡æŠ¥è¡¨åº“
 	mysql -h 10.111.33.122 -P3306 -uuhomeb -pbsvrvto0320dt -Dsegiods -A
  
- mysqldump -h 10.30.221.134 -P3306 -umsg_data -pabcd1111 --databases svr_pub --table parking_sale_purchase_info (--no-create-info) > /tmp/parking_sale_purchase_info.sql   µ¼³öÎÄ¼ş
+ mysqldump -h 10.30.221.134 -P3306 -umsg_data -pabcd1111 --databases svr_pub --table parking_sale_purchase_info (--no-create-info) > /tmp/parking_sale_purchase_info.sql   å¯¼å‡ºæ–‡ä»¶
  
+betaæ•°æ®ä»“åº“ : ç”¨workæœºå™¨è¿  mysql -h10.111.33.129 -uroot -p'D62!bZ18f^sgT03n' -P9030  sdc_doris
  
 
 gamma:
 mysql -h 10.111.32.22 -P3306  -uuhome2 -pbgama9615dt -Dsegi_parking -A
 mysql -h 10.111.32.22 -P3306  -uuhome2 -pbgama9615dt
 
-±¦·á»·¾³beta
+å®ä¸°ç¯å¢ƒbeta
 mysql -h 10.100.144.8  -uparkApp -psKO71o_pRXi -Dsegi_parking  -A
 
 
 http://wytest.mideadc.com/web/portal-gateway/#/
-wyadmin/123456 ÃÀµÄ
+wyadmin/123456 ç¾çš„
 https://ipms.chanfinelife.com/web/portal/#/home
-18696160001 Qwer1234 ³¤·¿
+18696160001 Qwer1234 é•¿æˆ¿
 
 http://zhwy.octlife.com/web/sassLogin/login.html 11111111004  Abcd1111@
 https://zhwytst.octlife.com/web/portal/#/home   11111111004  Qwer@12345678
-»ªÇÈ³Ç 
+åä¾¨åŸ 
 
-http://lelingjia.baofengenergy.com/web/sassLogin/login.html ±¦·áÕıÊ½  18900189001    Qwer12345678
-http://211.93.15.122:5000/web/sassLogin/login.html  18900189001 Qwer1234 ±¦·á²âÊÔ
+http://lelingjia.baofengenergy.com/web/sassLogin/login.html å®ä¸°æ­£å¼  18900189001    Qwer12345678
+http://211.93.15.122:5000/web/sassLogin/login.html  18900189001 Qwer1234 å®ä¸°æµ‹è¯•
 
-1.ÖĞº£ÕıÊ½»·¾³
+1.ä¸­æµ·æ­£å¼ç¯å¢ƒ
 https://sf.copm.com.cn/web/sassLogin/login.html
 18897775735  @Luo123456
 
-ÁªÍ¶ÕıÊ½
+è”æŠ•æ­£å¼
 https://wy.whltzy.com/web/sassLogin/login.html?redirectUrl=/web/portal-gateway/#/home-gateway
 186 9616 0000
 Abcd1233@
 
-±¦·áÕıÊ½£º
+å®ä¸°æ­£å¼ï¼š
 sghl0000002
 Sghladmin02
 http://lelingjia.baofengenergy.com
 
-±¤Àİ»ú£º
-ÕË»§£ºduyd@segimail.com
-ÃÜÂë£ºDv4!09H7w
+å ¡å’æœºï¼š
+è´¦æˆ·ï¼šduyd@segimail.com
+å¯†ç ï¼šDv4!09H7w
 
-ÔËÎ¬Æ½Ì¨:15652345110 Qwer1234
+è¿ç»´å¹³å°:15652345110 Qwer1234
 
 
 mqadmin/Betamq@1104  beta MQ
 
 
-http://10.29.216.180:7185/ops/command-execution/start/ ±¤Àİ»úµÇÂ½µØÖ·
+http://10.29.216.180:7185/ops/command-execution/start/ å ¡å’æœºç™»é™†åœ°å€
 beta 10.111.37.151
 sudo su - saasb
-½øÈë kubectl exec -t -i [podName] bash 
+è¿›å…¥ kubectl exec -t -i [podName] bash 
 
-cd /data/build/wuhan/ ÏîÄ¿ÎÄ¼şÄ¿Â¼
-rm -r * É¾³ıµ±Ç°ÏîÄ¿ÄÚÎÄ¼ş
-jar -xf /tmp/segi-wh-openapi.war ½âÑ¹war°ü
-./build_image.sh  segi-wh-openapi 1.0.1 ÏîÄ¿ÏÂwhapi
-cd /data/product/saasb/whopenapi/ cat segi-wh-openapi.yaml ĞŞ¸ÄÅäÖÃ°æ±¾ºÅ
-kubectl apply -f segi-wh-openapi.yaml ÏîÄ¿ÏÂÖØĞÂ´´½¨pod
-cd /data/product/saasb/configmap/car/ ÅäÖÃÎÄ¼şÂ·¾¶
-¸ü»»ÅäÖÃÎÄ¼şºóĞø kubectl delete(apply/create) -f  yaml;
+cd /data/build/wuhan/ é¡¹ç›®æ–‡ä»¶ç›®å½•
+rm -r * åˆ é™¤å½“å‰é¡¹ç›®å†…æ–‡ä»¶
+jar -xf /tmp/segi-wh-openapi.war è§£å‹waråŒ…
+./build_image.sh  segi-wh-openapi 1.0.1 é¡¹ç›®ä¸‹whapi
+cd /data/product/saasb/whopenapi/ cat segi-wh-openapi.yaml ä¿®æ”¹é…ç½®ç‰ˆæœ¬å·
+kubectl apply -f segi-wh-openapi.yaml é¡¹ç›®ä¸‹é‡æ–°åˆ›å»ºpod
+cd /data/product/saasb/configmap/car/ é…ç½®æ–‡ä»¶è·¯å¾„
+æ›´æ¢é…ç½®æ–‡ä»¶åç»­ kubectl delete(apply/create) -f  yaml;
 kubectl apply -f   kubectl delete -f car-parking-api.yaml ;kubectl create -f car-parking-api.yaml
 
-kubectl  rollout  restart deploy  car-parking ÖØÆô
+kubectl  rollout  restart deploy  car-parking é‡å¯
 
 
 
-#×Öµä±í·Ö¿âÅäÖÃ£º
+#å­—å…¸è¡¨åˆ†åº“é…ç½®ï¼š
 SELECT * FROM uhome.`tb_uhome_dictionary` WHERE CODE LIKE '%webapp.root.meter.table%'
 INSERT INTO uhome.`tb_uhome_dictionary` (`CODE`, `NAME`, `VALUE`, `ORDER_NO`, `TYPE`, `STATUS`, `REMARK`, `CREATE_TIME`, `UPDATE_TIME`) VALUES('webapp.root.meter.table','','meter_inst','1','METER','1','','2020-10-25 11:00:00','2020-10-25 11:00:00');
 
-show columns from ±íÃû;
+show columns from è¡¨å;
 
-#ÏîÄ¿Æô¶¯ÅäÖÃ£º
+#é¡¹ç›®å¯åŠ¨é…ç½®ï¼š
 -DUHOME_CONFIG_PATH=E:\appconfig\eqp\uhome-config-met.properties
 -Dice.envPath=file:E:\appconfig\iceclient.properties
 -Dserver.servlet.context-path=/meter-service
 -Dlogging.level.com.segi.uhomecp=debug
 
-#²úÆ·»®·Ö£º
-BMG£ºÒµÎñ¹ÜÀí×é£¨×Ê¹Ü¡¢¾­Óª¡¢Îï¹Ü£©
-ERG£ºERP×é£¨Òµ¿Ø¡¢ÊÕÖ§£©
-PMG£ºÆ½Ì¨¹ÜÀí×é£¨»ù´¡¡¢ÖĞÌ¨Àà²úÆ·£©
-OMG£ºÔËÓª¹ÜÀí×é£¨¿Í»§¡¢Êı¾İ¡¢ÔËÓª£©
+#äº§å“åˆ’åˆ†ï¼š
+BMGï¼šä¸šåŠ¡ç®¡ç†ç»„ï¼ˆèµ„ç®¡ã€ç»è¥ã€ç‰©ç®¡ï¼‰
+ERGï¼šERPç»„ï¼ˆä¸šæ§ã€æ”¶æ”¯ï¼‰
+PMGï¼šå¹³å°ç®¡ç†ç»„ï¼ˆåŸºç¡€ã€ä¸­å°ç±»äº§å“ï¼‰
+OMGï¼šè¿è¥ç®¡ç†ç»„ï¼ˆå®¢æˆ·ã€æ•°æ®ã€è¿è¥ï¼‰
 
-#bootÏîÄ¿Æô¶¯¹Ø±ÕlinuxÅäÖÃ
+#booté¡¹ç›®å¯åŠ¨å…³é—­linuxé…ç½®
 #!/bin/bash
 jar="meter-service-0.0.1-SNAPSHOT.jar"
 nohup java -Xms256m -Xmx256m -XX:PermSize=256m -XX:MaxPermSize=256m -XX:MaxNewSize=256m -Dserver.port=20203 -Dserver.servlet.context-path=/meter-service -DUHOME_CONFIG_PATH=../config/uhome-config-met.properties -Dlogging.level.com.segi.uhomecp.meter=debug -Dlogging.config=../config/logback-spring.xml -Djasypt.encryptor.password=EbfYkitulv73I2p0mXI50JMXoaxZTKJ0  -Dice.envPath=../config/iceclient.properties -Dspring.config.location=../config/application.properties  -Dfile.encoding=UTF8 -jar ../lib/${jar} >nohup.log 2>&1 &
@@ -156,7 +157,7 @@ jar="meter-service-0.0.1-SNAPSHOT.jar"
 kill -9 $(ps -ef | grep ${jar} | grep -v grep | awk '{print $2}')
 echo "stop server meter-service"
 
-#linux²é¿´¶Ë¿Ú
+#linuxæŸ¥çœ‹ç«¯å£
 netstat -an | grep 16010
 
 mkdir
@@ -165,28 +166,28 @@ mkdir
 
 mybatis <![CDATA[ >= ]]>
 
-#±¾µØ²Ö¿â´ò°ü
+#æœ¬åœ°ä»“åº“æ‰“åŒ…
 mvn install:install-file -Dfile=C:\Users\123\Desktop\logback-core-1.2.9.jar -DgroupId=ch.qos.logback -DartifactId=logback-core -Dversion=1.2.9 -Dpackaging=jar -Dmaven.repo.local=D:\repo
 
 mvn deploy:deploy-file -Dmaven.test.skip=true -Dfile=D:\repo\com\segi\uhomecp\order-inner-rpc\1.1.5\order-inner-rpc-1.1.5.jar -DgroupId=com.segi.uhomecp -DartifactId=order-inner-rpc -Dversion=1.1.5 -Dpackaging=jar -DrepositoryId=releases -Durl=http://192.168.1.5:8087/nexus/content/repositories/releases/
 
-http://192.168.1.11:8087/nexus/#    //vpnÔ¶³Ì²Ö¿â
-http://192.168.1.5:8087/nexus/#    //Ë½·ş²Ö¿â
+http://192.168.1.11:8087/nexus/#    //vpnè¿œç¨‹ä»“åº“
+http://192.168.1.5:8087/nexus/#    //ç§æœä»“åº“
 admin
 admin123321
 
 > catalina.out
 
-//ÅäÖÃÈ¨ÏŞ
+//é…ç½®æƒé™
 SELECT * FROM tb_uhome_admin_user WHERE tel='15652345110';
 3164
 
-SELECT * FROM resource WHERE res_name LIKE '%ÒÑÓĞÔÂ¿¨%';
+SELECT * FROM resource WHERE res_name LIKE '%å·²æœ‰æœˆå¡%';
 
 SELECT * FROM resource WHERE parent_id=1431239;
 
 1571210
-SELECT * FROM resource WHERE res_name LIKE '%¹ı»§%';
+SELECT * FROM resource WHERE res_name LIKE '%è¿‡æˆ·%';
 1112700010
 
 5431
@@ -194,83 +195,83 @@ SELECT * FROM user_role_rel WHERE user_id=3164;
 
 INSERT INTO popedom_role_rel (ROLE_ID,POPEDOM_ID) VALUES (5431,1112700254);
 SELECT * FROM popedom_role_rel
-INSERT INTO resource (RES_CODE,PARENT_ID,RES_NAME,TYPE,ORDER_NO,STATUS) VALUES ('parking_place002','20021','³µÎ»É¾³ı',2,10,1);
+INSERT INTO resource (RES_CODE,PARENT_ID,RES_NAME,TYPE,ORDER_NO,STATUS) VALUES ('parking_place002','20021','è½¦ä½åˆ é™¤',2,10,1);
 
-//²é±ísql
+//æŸ¥è¡¨sql
 SELECT * FROM information_schema.tables WHERE table_name LIKE 'tb_uhome_dictionary';
-//½¨ÊÓÍ¼»òÕßĞŞ¸Ä
+//å»ºè§†å›¾æˆ–è€…ä¿®æ”¹
 CREATE VIEW common_sql_config AS (select * from uhome.common_sql_config)
-CREATE   OR  REPLACE  VIEW  Óï¾äĞŞ¸ÄÊÓÍ¼
-//ĞòÁĞ
+CREATE   OR  REPLACE  VIEW  è¯­å¥ä¿®æ”¹è§†å›¾
+//åºåˆ—
 INSERT INTO t_sequence(NAME, VALUE, gmt_modified, step)SELECT 'meter_dt_inst_id_seq' , 1000 , NOW(), 10000;
-//¼Ó×Ö¶Î
-ALTER TABLE meter_replace_approval_record ADD approver_id INT(11) COMMENT "ÉóºËÈËid";
-//¸Ä×Ö¶Î
+//åŠ å­—æ®µ
+ALTER TABLE meter_replace_approval_record ADD approver_id INT(11) COMMENT "å®¡æ ¸äººid";
+//æ”¹å­—æ®µ
 ALTER TABLE attence MODIFY COLUMN id INT(20)
-//ÅúÁ¿¼Ó×Ö¶Î
+//æ‰¹é‡åŠ å­—æ®µ
 ALTER TABLE audit_inst_item_change_record ADD (met1 INT(11) COMMENT "111",met2 INT(11) COMMENT "222",met3 INT(11) COMMENT "333");
-//Ìí¼ÓË÷Òı
+//æ·»åŠ ç´¢å¼•
 ALTER TABLE `parking_res_rel` ADD INDEX `index_parking_res_rel_rc` (`res_id`,`community_id`)
--- É¾³ı×Ö¶Î
+-- åˆ é™¤å­—æ®µ
 ALTER TABLE `table_name` DROP COLUMN `column`;
 
 ALTER TABLE tb_uhome_parking ADD PRIMARY KEY (`PARKING_ID`);
-//¸ù¾İ»ú¹¹id²éÑ¯»ú¹¹ÏÂËùÓĞÏîÄ¿
+//æ ¹æ®æœºæ„idæŸ¥è¯¢æœºæ„ä¸‹æ‰€æœ‰é¡¹ç›®
 (SELECT DISTINCT community_id FROM organ_com_rel WHERE STATUS  = 1 AND virtua_organ_id IN ( SELECT organ_id FROM organ_rel WHERE organ_code LIKE 
 CONCAT((SELECT organ_code FROM organ_rel WHERE organ_id = 1000626),'%'))
 )
 
 
 
-//tomcatÉèÖÃÆô¶¯¹Ø±ÕÉ±ËÀPID
-./catanila.shÏÂ
+//tomcatè®¾ç½®å¯åŠ¨å…³é—­æ€æ­»PID
+./catanila.shä¸‹
 # Get standard environment variables 
 PRGDIR=`dirname "$PRG"`
 if [ -z "$CATALINA_PID" ]; then
 CATALINA_PID=$PRGDIR/CATALINA_PID
 fi
-./shutdown.shÏÂ
+./shutdown.shä¸‹
 **************** stop -force "$@"
 
-//ÎÄ¼şÄÚËÑË÷¡¢¸³È¨
+//æ–‡ä»¶å†…æœç´¢ã€èµ‹æƒ
   chmod -R 777 dir1
-  chown du: -R dir2 ¸ÄÓÃ»§×é
+  chown du: -R dir2 æ”¹ç”¨æˆ·ç»„
   
-  # Set UMASK unless it has been overridden tomcatÄÚĞŞ¸ÄÉÏ´«ÎÄ¼şÈ¨ÏŞ
+  # Set UMASK unless it has been overridden tomcatå†…ä¿®æ”¹ä¸Šä¼ æ–‡ä»¶æƒé™
 if [ -z "$UMASK" ]; then
     UMASK="0022"
 fi
 
-ÎÄ¼şÄÚ /[pattern]  ×ÖÄ¸nÈ¥²éÕÒÏÂÒ»¸ö
-ÎÄ¼şÍâ grep -c "contents" debug.log 
-			-cÆ¥ÅäµÄĞĞÊı 
-			-nĞĞÊı 
-			-iºöÂÔ´óĞ¡Ğ´ 
-			*.log¶à¸öÎÄ¼ş 
-			-rµİ¹é Ö¸¶¨ÎÄ¼ş¼Ğ grep -r "v\$temp_space_header" /u01 
-			-w Ö»Ïë»ñÈ¡ºÍÕû¸öËÑË÷×Ö·ûÆ¥ÅäµÄÄÚÈİ
-			-A 10 ·µ»ØÆ¥ÅäºóºÍËüºóÃæµÄnĞĞ,(After£¬Ö®ºó)¡£
-			-B 10 ·µ»ØÆ¥ÅäĞĞºÍËüÇ°ÃæµÄnĞĞ,(Before£¬Ö®Ç°)¡£
-			-C 10 ·µ»ØÆ¥ÅäĞĞºÍËüÇ°ºó¸÷nĞĞ£¬Í¨-AºÍ-BÁªÓÃ,(Context£¬ÉÏÏÂÎÄ¼´Ç°ºó)¡£
+æ–‡ä»¶å†… /[pattern]  å­—æ¯nå»æŸ¥æ‰¾ä¸‹ä¸€ä¸ª
+æ–‡ä»¶å¤– grep -c "contents" debug.log 
+			-cåŒ¹é…çš„è¡Œæ•° 
+			-nè¡Œæ•° 
+			-iå¿½ç•¥å¤§å°å†™ 
+			*.logå¤šä¸ªæ–‡ä»¶ 
+			-ré€’å½’ æŒ‡å®šæ–‡ä»¶å¤¹ grep -r "v\$temp_space_header" /u01 
+			-w åªæƒ³è·å–å’Œæ•´ä¸ªæœç´¢å­—ç¬¦åŒ¹é…çš„å†…å®¹
+			-A 10 è¿”å›åŒ¹é…åå’Œå®ƒåé¢çš„nè¡Œ,(Afterï¼Œä¹‹å)ã€‚
+			-B 10 è¿”å›åŒ¹é…è¡Œå’Œå®ƒå‰é¢çš„nè¡Œ,(Beforeï¼Œä¹‹å‰)ã€‚
+			-C 10 è¿”å›åŒ¹é…è¡Œå’Œå®ƒå‰åå„nè¡Œï¼Œé€š-Aå’Œ-Bè”ç”¨,(Contextï¼Œä¸Šä¸‹æ–‡å³å‰å)ã€‚
 			
 
 			
 jar -xvf ROOT.war
 
-git²Ù×÷
-$ git branch -d <BranchName> É¾³ı±¾µØ·ÖÖ§
-merge into current ½«Ô¶³ÌµÄºÏ²¢µ½µ±Ç°
+gitæ“ä½œ
+$ git branch -d <BranchName> åˆ é™¤æœ¬åœ°åˆ†æ”¯
+merge into current å°†è¿œç¨‹çš„åˆå¹¶åˆ°å½“å‰
 			
-mqµØÖ·£ºhttp://192.168.1.188:12581/#/topic
+mqåœ°å€ï¼šhttp://192.168.1.188:12581/#/topic
 saasb:	http://10.29.216.180:7172/rocketmq-console/#/message 
 beta:	https://beta.uhomecp.com/rocketmq-console/#/message
 
-Nginx£º10.111.32.25 /usr/local/nginx/conf/nginx_server.conf -
-ÉúĞ§ /usr/local/nginx/sbin  ./nginx -s reload  ÖØĞÂ¼ÓÔØ
+Nginxï¼š10.111.32.25 /usr/local/nginx/conf/nginx_server.conf -
+ç”Ÿæ•ˆ /usr/local/nginx/sbin  ./nginx -s reload  é‡æ–°åŠ è½½
 
-UPDATE '±íÃû' SET field = replace(field,'±»Ìæ»»','Ìæ»»³É') 
+UPDATE 'è¡¨å' SET field = replace(field,'è¢«æ›¿æ¢','æ›¿æ¢æˆ') 
 
-²é¿´linux Õ¼ÓÃ´ÅÅÌ µØ·½df -h
+æŸ¥çœ‹linux å ç”¨ç£ç›˜ åœ°æ–¹df -h
 
 post:
 	curl -v -H "Content-Type: application/json; charset=UTF-8" -H "version: 1.0.0" -X POST -d '{"totalAmount":"96000","system":"32768","method":"paycallback","payMethod":"12","businessId":"BTI102023112815103811322100000","custId":"0","paySerialId":"BTI102023112815103811322100000","organId":"1000188","communityId":"1000188","payStatus":"POK","userId":"","payDate":"2023-11-28 15:10:36"}' "http://bill-c.bill:8080/bill/outerifc"
