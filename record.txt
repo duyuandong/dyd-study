@@ -53,7 +53,7 @@ use  svr_pub
 
 beta:
 mysql -h 10.30.221.134 -P3306 -uuhomeb -pbsvrvto0320dt -Dparking -A 
- mysql -uuhomeb -p'bsvrvto0320dt' -h10.111.33.121 -Dsegi_parking -A
+ 车场业务库 mysql -uuhomeb -p'bsvrvto0320dt' -h10.111.33.121 -Dsegi_parking -A
  mysql -uuhome_bus_user -p'uhome_bus_user' -h10.111.33.121 -Dsegi_pub -A
  
 mysql -h 10.30.221.134 -P3306 -umsg_data -pabcd1111 -Dsvr_pub -A

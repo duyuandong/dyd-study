@@ -13,6 +13,9 @@ import java.util.Set;
  * @date ：Created in 2024/3/1 15:56
  * @description：客户端 用telnet localhost 9000 进行连接
  *                      send  内容  发送数据
+ *                      核心:多路复用原理
+ *                      底层是调用 linux的函数 epoll轮询  epoll_wait ,epoll_ctl , epoll_create
+ *                      redis  linux 底层也是用的epoll
  * @modified By：
  * @version:
  */
@@ -46,17 +49,17 @@ public class NioSelectorService {
                     ServerSocketChannel channel = (ServerSocketChannel)key.channel();
                     SocketChannel accept = channel.accept();
                     accept.configureBlocking(false);
-
+                    //这里只是注册了读事件,如果要给客户端发送数据需要注册写事件(OP_READ)
+                    accept.register(selector,SelectionKey.OP_READ);
                     System.out.println("客户端连接成功");
-                    channel.register(selector,SelectionKey.OP_READ);
 
                 } else if (key.isReadable()) {//如果是OP_READ则进行读取和打印
                     SocketChannel channel = (SocketChannel)key.channel();
                     ByteBuffer allocate = ByteBuffer.allocate(6);
                     int len = channel.read(allocate);
-                    if(len != -1 ){
+                    if(len > 0){
                         System.out.println("接收到消息:" + new String(allocate.array()));
-                    }else{
+                    }else if(len == -1 ){
                         System.out.println("客户端断开连接");
                         channel.close();
                     }
