@@ -28,7 +28,8 @@ jekins admin 123456
 惠泽v8 segi,123456  v6
 
 主数据
-
+linux下抓数据包 命令 tcpdump -nn[取消反向dns的过程，立即打印抓包，并用数字显示ip端口之类] -i[网卡] eth0 port[端口] 80
+查看网络地址 netstat -natp
 
 独立部署是segi_dbr密码是Yv0i5WxigYaLr4pN
 saas平台:mysql 
@@ -178,7 +179,7 @@ admin123321
 > catalina.out
 
 //配置权限
-SELECT * FROM tb_uhome_admin_user WHERE tel='15652345110';
+SELECT * FROM tb_uhome_admin_user WHERE tel='15652345110'; 19800198001
 3164
 
 SELECT * FROM resource WHERE res_name LIKE '%已有月卡%';
