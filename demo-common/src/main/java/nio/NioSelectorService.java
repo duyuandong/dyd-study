@@ -55,7 +55,7 @@ public class NioSelectorService {
 
                 } else if (key.isReadable()) {//如果是OP_READ则进行读取和打印
                     SocketChannel channel = (SocketChannel)key.channel();
-                    ByteBuffer allocate = ByteBuffer.allocate(6);
+                    ByteBuffer allocate = ByteBuffer.allocate(1024);
                     int len = channel.read(allocate);
                     if(len > 0){
                         System.out.println("接收到消息:" + new String(allocate.array()));

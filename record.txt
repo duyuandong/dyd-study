@@ -169,7 +169,7 @@ mybatis <![CDATA[ >= ]]>
 #本地仓库打包
 mvn install:install-file -Dfile=C:\Users\123\Desktop\logback-core-1.2.9.jar -DgroupId=ch.qos.logback -DartifactId=logback-core -Dversion=1.2.9 -Dpackaging=jar -Dmaven.repo.local=D:\repo
 
-mvn deploy:deploy-file -Dmaven.test.skip=true -Dfile=D:\repo\com\segi\uhomecp\order-inner-rpc\1.1.5\order-inner-rpc-1.1.5.jar -DgroupId=com.segi.uhomecp -DartifactId=order-inner-rpc -Dversion=1.1.5 -Dpackaging=jar -DrepositoryId=releases -Durl=http://192.168.1.5:8087/nexus/content/repositories/releases/
+mvn deploy:deploy-file -Dmaven.test.skip=true -Dfile=D:\repo\com\segi\uhomecp\order-inner-rpc\1.1.5\order-inner-rpc-1.1.5.jar -DgroupId=com.segi.uhomecp -DartifactId=order-inner-rpc -Dversion=1.1.5 -Dpackaging=jar -DrepositoryId=snapshots -Durl=http://192.168.1.5:8087/nexus/content/repositories/snapshots/
 
 http://192.168.1.11:8087/nexus/#    //vpn远程仓库
 http://192.168.1.5:8087/nexus/#    //私服仓库
