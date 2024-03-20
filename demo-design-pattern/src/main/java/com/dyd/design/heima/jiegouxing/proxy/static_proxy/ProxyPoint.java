@@ -9,10 +9,15 @@ package com.dyd.design.heima.jiegouxing.proxy.static_proxy;
  * @version:
  */
 public class ProxyPoint implements SellTickets{
-    private TrainStation trainStation = new TrainStation();
+    private TrainStation target;
+
+    public ProxyPoint(TrainStation target) {
+        this.target = target;
+    }
+
     @Override
     public void sell() {
         System.out.println("==收取代售点服务费==");
-        trainStation.sell();
+        this.target.sell();
     }
 }

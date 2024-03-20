@@ -10,7 +10,7 @@ package com.dyd.design.heima.jiegouxing.proxy.static_proxy;
  */
 public class Client {
     public static void main(String[] args) {
-        ProxyPoint proxyPoint = new ProxyPoint();
+        ProxyPoint proxyPoint = new ProxyPoint(new TrainStation());
         proxyPoint.sell();
     }
 }
