@@ -105,7 +105,7 @@ http://lelingjia.baofengenergy.com
 
 运维平台:15652345110 Qwer1234
 
-
+https://beta.uhomecp.com/rocketmq-console/#/message
 mqadmin/Betamq@1104  beta MQ
 
 
@@ -179,7 +179,7 @@ admin123321
 > catalina.out
 
 //配置权限
-SELECT * FROM tb_uhome_admin_user WHERE tel='15652345110'; 19800198001
+SELECT * FROM tb_uhome_admin_user WHERE tel='15652345110'; 19800198001(110614190)
 3164
 
 SELECT * FROM resource WHERE res_name LIKE '%已有月卡%';

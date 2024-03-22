@@ -1,5 +1,7 @@
 package com.dyd.design.heima.jiegouxing.proxy.static_proxy;
 
+import java.util.Date;
+
 /**
  * @author ：duyd@segimail.com
  * @class ：com.spring.demo.com.dyd.static_proxy.proxy.jiegouxing.heima.design.Client
@@ -12,5 +14,9 @@ public class Client {
     public static void main(String[] args) {
         ProxyPoint proxyPoint = new ProxyPoint(new TrainStation());
         proxyPoint.sell();
+
+        System.out.println(new Date().getTime());
+
     }
+
 }
